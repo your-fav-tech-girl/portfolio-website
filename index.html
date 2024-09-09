@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer Portfolio</title>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Funmilola Akanbi</div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+ <!--*** Hero Section ***-->
+ <section class="hero-section">
+  <div class="hero-container">
+    <div class="hero-content" data-aos="fade-right" data-aos-delay="0">
+      <p>Hello, I'm</p>
+      <h2>FUNMILOLA AKANBI</h2>
+      <p>Front-end Web Developer</p>
+      <div class="hero-icons">
+        <a href="http://linkedin.com/in/funmilola-akanbi-61b5b81b1"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/your-fav-tech-girl" target="_blank"
+          ><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/lawlarh_f"
+          target="_blank"
+          ><i class="fa-brands fa-x-twitter"></i></a></div>
+
+    <div class="hero-img" data-aos="fade-left" data-aos-delay="200">
+      <img src="/image/LOLA.jpg" alt="my-picture" width="500px;" />
+    </div>
+  </div>
+</section>
+<!--*** End of hero section ***-->
+   
+<section id="about">
+        <div class="container">
+          <div class="text1">
+            <h2>About</h2>
+            <p>I am Funmilola Akanbi,a front end web developer, proficient in Html,Css and Javascript<br>.I am
+            confident in my skills and looking for new challenges and opportunities to grow as a developer.<br>
+            I am excited to share my skills with the world and hope to make a positive impact on the web<br> 
+            development community with my skills and experience.<br> I love building responsive and user-friendly<br> 
+            websites and i am looking forward to more projects and collaborations.</p>
+   </div>
+  </div>
+  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skill-img" data-aos="fade-up">
+        <div class="img1">
+          <img src="/image/html4.png" alt="html-png" />
+          <p>HTML</p>
+        </div>
+        <div class="img1">
+          <img src="image/css-removebg-preview.png" alt="css-png" />
+          <p>CSS</p>
+        </div>
+        <div class="img1">
+          <img src="image/js-removebg-preview.png" alt="js-png" />
+          <p>Javascript</p>
+        </div>
+      </div>
+    </section> 
+
+    <section class="carousel-section">
+      <div class="carousel-text">
+        <h2>Projects</h2>
+      <p>These are screenshots of some of my projects as a beginner and new front end web developer
+        built using position,flex and grid.Also a collaboration of a website with other devs is included.
+      You can view the full websites on my GitHub below.</p>
+     <button id="GitHub"><a href="https://github.com/your-fav-tech-girl">Click here to view my GitHub</a></button>
+    </div>
+
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <img src="assets/img/image1.jpg" alt="Image1" />
+          <img src="assets/img/image2.jpg" alt="Image2" />
+          <img src="assets/img/image3.jpg" alt="Image3" />
+          <img src="assets/img/image4.jpg" alt="Image4" />
+          <img src="assets/img/image5.jpg" alt="Image5" />
+          <img src="assets/img/TO DO LIST.jpg" alt="Image6" />
+          <img src="assets/img/image7.jpg" alt="Image7" />
+          <img src="assets/img/image8.jpg" alt="Image8" />
+
+        </div>
+
+        <button class="carousel-btn prev" onclick="prevSlide()">&#10094;
+        </button>
+        <button class="carousel-btn next" onclick="nextSlide()">&#10095;
+        </button>
+      </div>
+    </section>
+  
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Get in Touch for team collaborations,community projects,business and personal
+              website developments.
+            </p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+   
