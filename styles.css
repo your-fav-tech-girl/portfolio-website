@@ -294,9 +294,8 @@ width:180px;
     margin: 0 -2px 0 0;
   }
   .hero-content {
-    width: 70%;
+    width:70%;
     text-align:center;
-    margin-right:20px;
 
   }
   .about-content {
@@ -513,15 +512,17 @@ footer {
     form label {
         margin-top: 0.5rem;
         text-align: center;
+        margin-right:5rem;
     }
-    
-    form input, form textarea {
-        margin-top: 0.5rem;
-        padding: 0.5rem;
-        font-size:1rem;
-        text-align:center;
-        margin-right:0rem;
-    }
+    form input,form textarea {
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 20rem;
+      text-align:center;
+      margin-left:0rem;
+     
+  }
     
     form button {
         margin-top: 1rem;
@@ -533,6 +534,5 @@ footer {
         border: none;
         cursor: pointer;
         text-decoration: none;
-    }
-    
+    }   
 }
