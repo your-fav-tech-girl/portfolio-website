@@ -347,20 +347,22 @@ width:180px;
   #project{
   display:flex;
   flex-direction:column;
-  flex-wrap:nowrap;
+  justify-content:center;
+  align-content: center;
+
+  
   }
   .project1{
     flex:(1fr, 400px);
-    box-shadow: 10px 10px 10px rgb(69, 63, 63);
     border-radius:20px;
-    justify-content: left;
-    margin-right:8rem;
+    justify-content:left;
+    margin-left:2rem;
   }
 
   .project1 img{
     border-radius: 20px;
     width:400px;
-    margin-right:350px ;
+    margin-right:50px;
   }
   }
 .project1{
