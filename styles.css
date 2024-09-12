@@ -287,16 +287,18 @@ width:180px;
   transform: scale(1.1);
 }
 /*max-width 500px */
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .hero-img img {
-    width: 150px;
+    width: 250px;
     height: 200px;
     margin: 0 -2px 0 0;
   }
   .hero-content {
     width: 70%;
-  }
+    text-align:center;
+    margin-right:20px;
 
+  }
   .about-content {
     width: 87%;
   }
@@ -306,7 +308,9 @@ width:180px;
   .skill-img {
     text-align:center;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
   }
   .skill-img .img1 {
     width: 150px;
@@ -477,9 +481,9 @@ footer {
         margin-top: 0.5rem;
         padding: 0.5rem;
         font-size: 1rem;
-        width:30rem;
+        width:20rem;
         text-align:center;
-        margin-left:3rem;
+        margin-left:5rem;
     }
     
     form button {
@@ -498,7 +502,7 @@ footer {
 @media(max-width :500px) {
     form {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         text-align:center;
         align-content: center;
         justify-content: center;
@@ -509,16 +513,14 @@ footer {
     form label {
         margin-top: 0.5rem;
         text-align: center;
-        
     }
     
     form input, form textarea {
         margin-top: 0.5rem;
         padding: 0.5rem;
-        font-size: 1rem;
-        width:20rem;
+        font-size:1rem;
         text-align:center;
-        margin-left:0rem;
+        margin-right:0rem;
     }
     
     form button {
