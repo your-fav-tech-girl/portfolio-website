@@ -337,6 +337,41 @@ width:180px;
     margin-bottom: 40px;
     padding:2rem;
   }
+  #project{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  }
+  @media (max-width:500px) {
+  #project{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  }
+  .project1{
+    flex:(1fr, 400px);
+    box-shadow: 10px 10px 10px rgb(69, 63, 63);
+    border-radius:20px;
+    justify-content: left;
+    margin-right:8rem;
+  }
+
+  .project1 img{
+    border-radius: 20px;
+    width:400px;
+    margin-right:350px ;
+  }
+  }
+.project1{
+  flex:(2fr, 500px);
+  box-shadow: 10px 10px 10px rgb(69, 63, 63);
+  border-radius:20px;
+}
+.project1 img{
+  border-radius: 20px;
+}
+
 
 /* Carousel Section Styling */
 .carousel-section {
